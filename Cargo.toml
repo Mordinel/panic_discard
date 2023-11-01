@@ -2,6 +2,10 @@
 name = "panic_discard"
 version = "0.1.0"
 edition = "2021"
+authors = ["Mason Soroka-Gill <Mordinel@pm.me>"]
+description = "A proc-macro that discards panics that happen within a function."
+repository = "https://github.com/Mordinel/panic_discard"
+license = "MIT OR Apache-2.0"
 
 [lib]
 crate-type = ["proc-macro"]
